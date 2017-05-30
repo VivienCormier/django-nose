@@ -89,6 +89,8 @@ class BaseRunner(DiscoverRunner):
         '--keepdb', '--reverse', '--debug-sql',
         # 1.9 arguments
         '--parallel',
+        # 1.10 arguments
+        '--tag', '--exclude-tag',
     ]
 
     #
